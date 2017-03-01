@@ -1,0 +1,38 @@
+1. Why MapReduce program is needed in Pig Programming?
+                      In pig the queries are converted into map reduce programs as hadoop is 
+a java based system and understands only java based map reduce programs.only it is used to perform
+operations.It has the ability to perform computations which can not be done by
+MapReduce.
+======================================================================================================
+2. What are advantages of Pig over MapReduce?
+It has the ability to perform computations which can not be done by
+MapReduce. a 10 line code in pig is equivalent to 200 line size code in hadoop mapreduce.
+it laids a way for non java programmers a chance to work on data analytics based projects.
+======================================================================================================
+3. What is Pig engine and what is its importance?
+it accepts  Pig Latin scripts as input and converts those scripts into MapReduce jobs.
+======================================================================================================
+4. What are the modes of Pig execution?
+Local Mode -in local mode pig runs on a single machine file system.
+Mapreduce Mode -  in mapreduce mode it runs on a hadoop cluster.
+======================================================================================================
+5. What is Grunt Shell in Pig?
+it is a interactive Shell for executing Pig Commands.it is Used when script file is not provided.
+it can execute scripts from Grunt via run or exec commands
+======================================================================================================
+6. What are the features of Pig Latin language?
+Pig can operate on data with or without metadata.
+Pig is not tied to Pig processes data very fast-no need to go through a time-consuming data
+import process prior to running queries, as in conventional databases.any particular framework
+user defined aggregates,functions and conditionals are helpful to customize pig.
+======================================================================================================
+7. Is Pig Latin commands case sensitive?
+The names (aliases) of relations and fields are case sensitive. The names of Pig Latin
+functions are case sensitive. The names of parameters (see Parameter Substitution) and all
+other Pig Latin keywords are case insensitive.
+====================================================================================================
+8. What is a data flow language? 
+a data flow language is one which can be represented as a directed graph with a specific flow 
+of data through the programme following the data flow principles and architecture rules laid
+on them.
+===================================================================================================
